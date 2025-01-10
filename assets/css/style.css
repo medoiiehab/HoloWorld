@@ -243,7 +243,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 --------------------------------------*/
 .welcome-hero {
     position: relative;
-    background:url(../images/welcome-hero/banner.jpg)no-repeat;
+    background:url(https://www.egypttoursportal.com/images/2023/03/The-Grand-Egyptian-Museum-Egypt-Tours-Portal.jpg)no-repeat;
     background-position:center;
     background-size:cover;
     text-align: center;
@@ -679,7 +679,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     position:relative;
     display: flex;
     align-items: center;
-    background:url(../../assets/images/counter/counter-banner.jpg)no-repeat fixed;
+    background:url(https://images.unsplash.com/photo-1623674587543-9c7564de99d1?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)no-repeat fixed;
     background-position:center;
     background-size:cover;
     padding:127px 0 120px;

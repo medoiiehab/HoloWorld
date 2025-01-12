@@ -26,14 +26,23 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    .portrait-image {
+        width: 200px; /* Set the width of the image */
+        height: 300px; /* Set the height to create a portrait ratio */
+        border-radius: 20px; /* Rounds the edges */
+        object-fit: cover; /* Ensures the image fits within the rectangle */
+        margin: 10px; /* Adds spacing between images */
+        border: 2px solid #ddd; /* Optional: Adds a border */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
+    }
 
-  <!-- =======================================================
-  * Template Name: HoloWorld
-  * Template URL: https://bootstrapmade.com/HoloWorld-bootstrap-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    .image-container {
+        display: flex;
+        justify-content: center; /* Centers the images horizontally */
+        gap: 20px; /* Adds spacing between the images */
+    }
+</style>
 </head>
 
 <body class="portfolio-details-page">
@@ -96,7 +105,7 @@
         <div class="container">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio Details</li>
+            <li class="current">About Us</li>
           </ol>
         </div>
       </nav>
@@ -112,7 +121,7 @@
 
           <div class="col-lg-8" data-aos="fade-up">
             <div class="portfolio-description">
-              <h2>This is an example of portfolio details</h2>
+              <h2>Who We Are?</h2>
               <p>
                 Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
               </p>
@@ -121,37 +130,25 @@
               </p>
 
               <div class="testimonial-item">
-                <div>
-                  <img src="assets/img/NAsser.jpg" class="testimonial-img" alt="Nasser">
-                  <h3>Mustafa Nasser </h3>
-                  <h4>Founder / CEO</h4>
-                </div>    <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
+                <div class="image-container">
+                  <!-- Image 1 -->
+                  <img class="portrait-image" src="assets/img/nasser.jpg" alt="Portrait Image 1">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <!-- Image 2 -->
+                  <img class="portrait-image" src="assets/img/me.jpg" alt="Portrait Image 2">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+              </div>
               </div>
 
-              <div class="testimonial-item">
-                <div>
-                  <img src="assets/img/me.jpg" class="testimonial-img" alt="Ehab">
-                  <h3>Moahmmed Ehab</h3>
-                  <h4>Co-Founder / CTO</h4>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-          
-              <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-              </p>
-
-              <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-              </p>
+            
 
             </div>
           </div>
